@@ -1,2 +1,0 @@
-# geunjin.github.io
-weblog
