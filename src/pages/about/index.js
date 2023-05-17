@@ -1,11 +1,15 @@
 import React from 'react';
 
+import Layout from '../../components/layout/Layout'
+
 export default function AboutPage() {
   return (
-    <div>
-      <span>About Me</span>
-      <p>temp</p>
-    </div>
+    <Layout pageTitle={'About'}>
+      <div>
+        <span>About Me</span>
+        <p>temp</p>
+      </div>
+    </Layout>
   );
 }
 

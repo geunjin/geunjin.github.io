@@ -1,15 +1,18 @@
 import * as React from 'react';
-
 import { Link } from 'gatsby';
+
+import Layout from '../components/layout/Layout'
 
 export default function IndexPage() {
   return (
-    <div>
-      <h1>GeunJin Blog</h1>
-      <div>공사중...</div>
-      <div>Tutorials 정독중... TEST</div>
-      <Link to={'/about'}>About</Link>
-    </div>
+    <Layout pageTitle={'Index'}>
+      <div>
+        <h1>GeunJin Blog</h1>
+        <div>공사중...</div>
+        <div>Tutorials... TEST</div>
+        <Link to={'/about'}>About</Link>
+      </div>
+    </Layout>
   );
 }
 
