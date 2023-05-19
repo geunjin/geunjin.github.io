@@ -13,4 +13,4 @@ export default function AboutPage() {
   );
 }
 
-export const Head = () => <title>About Me</title>;
+export const Head = () => <title>About Me</title>

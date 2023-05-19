@@ -1,7 +1,8 @@
 import * as React from 'react';
-import { Link } from 'gatsby';
-
 import Layout from '../components/layout/Layout'
+import { Link } from 'gatsby';
+import { StaticImage } from 'gatsby-plugin-image'
+
 
 export default function IndexPage() {
   return (
