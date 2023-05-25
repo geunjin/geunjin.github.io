@@ -3,6 +3,7 @@
  */
 module.exports = {
   siteMetadata: {
+    title: 'geunjin-blog',
     siteUrl: `https://geunjin.github.io`,
   },
   plugins: [
