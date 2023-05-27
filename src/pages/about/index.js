@@ -1,6 +1,6 @@
 import React from 'react';
-
-import Layout from '../../components/layout/Layout'
+import Layout from '../../components/Layout'
+import Seo from "../../components/Seo";
 
 export default function AboutPage() {
   return (
@@ -13,4 +13,4 @@ export default function AboutPage() {
   );
 }
 
-export const Head = () => <title>About Me</title>
+export const Head = () => <Seo title={'About ME'}/>

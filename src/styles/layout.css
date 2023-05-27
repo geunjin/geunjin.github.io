@@ -26,9 +26,9 @@ body {
 #___gatsby {
   flex-direction: column;
 }
-div {
-  display: flex;
-}
-.hbox {
-  flex-direction: row;
-}
+div { display: flex; }
+flex-one { flex: 1; }
+.hbox { flex-direction: row; }
+.align-center { align-items: center; }
+.justify-center { justify-content: center; }
+.between { justify-content: space-between; }

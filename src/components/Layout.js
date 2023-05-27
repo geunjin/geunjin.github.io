@@ -2,7 +2,7 @@ import * as React from 'react';
 import { Link } from 'gatsby';
 import { useStaticQuery, graphql } from 'gatsby'
 
-import '../../styles/layout.css'
+import '../styles/layout.css'
 
 export default function Layout(props) {
   const {pageTitle,children} = props;
@@ -18,7 +18,7 @@ export default function Layout(props) {
 
   return (
     <div className={'container'}>
-      <div className={'hbox'}>
+      <div className={'flex-one hbox align-center between'}>
         <header>{data.site.siteMetadata.title}</header>
         <nav>
           <ul className={'nav-links'}>
@@ -30,6 +30,11 @@ export default function Layout(props) {
             <li className={'nav-link-item'}>
               <Link to="/about" className={'nav-link-text'}>
                 About
+              </Link>
+            </li>
+            <li className={'nav-link-item'}>
+              <Link to="/blog" className={'nav-link-text'}>
+                Blog
               </Link>
             </li>
           </ul>

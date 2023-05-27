@@ -1,8 +1,7 @@
 import * as React from 'react';
-import Layout from '../components/layout/Layout'
+import Layout from '../components/Layout'
 import { Link } from 'gatsby';
-import { StaticImage } from 'gatsby-plugin-image'
-import { useStaticQuery, graphql } from "gatsby"
+import Seo from "../components/Seo";
 
 
 export default function IndexPage() {
@@ -18,4 +17,4 @@ export default function IndexPage() {
   );
 }
 
-export const Head = () => <title>GeunJin Blog</title>;
+export const Head = () => <Seo/>
