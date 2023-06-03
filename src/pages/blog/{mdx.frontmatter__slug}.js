@@ -4,6 +4,7 @@ import Layout from "../../components/layout";
 import Seo from "../../components/seo";
 
 const Post = (props) => {
+  console.log(props)
   const { data, children } = props;
   const {
     mdx: {
