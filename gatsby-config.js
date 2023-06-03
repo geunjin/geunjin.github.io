@@ -9,13 +9,13 @@ module.exports = {
   plugins: [
     'gatsby-plugin-image',
     'gatsby-plugin-sharp',
-    "gatsby-plugin-mdx",
+    'gatsby-plugin-mdx',
     {
-      resolve: "gatsby-source-filesystem",
+      resolve: `gatsby-source-filesystem`,
       options: {
         name: `blog`,
-        path: `${__dirname}/blog`,
+        path: `${__dirname}/posts`,
       }
-    },
+    }
   ],
 }

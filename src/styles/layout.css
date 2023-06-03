@@ -28,6 +28,7 @@ body {
 }
 div { display: flex; }
 flex-one { flex: 1; }
+.vbox { flex-direction: column }
 .hbox { flex-direction: row; }
 .align-center { align-items: center; }
 .justify-center { justify-content: center; }
