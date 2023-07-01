@@ -22,7 +22,7 @@ export default function BlogPage({ data }) {
             <p>Posted: {date}</p>
             <p>{excerpt}</p>
           </article>
-        );
+        )
       })}
     </Layout>
   );

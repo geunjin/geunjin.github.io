@@ -1,20 +1,20 @@
-import * as React from 'react';
-import Layout from '../components/Layout'
-import { Link } from 'gatsby';
+import * as React from "react";
+import Layout from "../components/Layout";
+import { Link } from "gatsby";
 import Seo from "../components/Seo";
 
+import "../styles/index.less";
 
 export default function IndexPage() {
   return (
-    <Layout pageTitle={'Index'}>
+    <Layout>
       <div>
         <h1>GeunJin Blog</h1>
         <div>공사중...</div>
         <div>Tutorials... TEST</div>
-        <Link to={'/about'}>About</Link>
       </div>
     </Layout>
   );
 }
 
-export const Head = () => <Seo/>
+export const Head = () => <Seo />;

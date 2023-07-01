@@ -1,0 +1,35 @@
+.fullscreen {position: absolute;left: 0;top: 0;right: 0;bottom: 0;}
+.flex {display: flex;}
+.flex-one {flex: 1;}
+.vbox {flex-direction: column;}
+.hbox {flex-direction: row;}
+.align-center {align-items: center;}
+.justify-center {justify-content: center;}
+.between {justify-content: space-between;}
+
+body {
+  margin: 0;
+  padding: 0;
+  .fullscreen();
+  .flex();
+  #___gatsby {
+    .flex();
+    .flex-one();
+    .vbox();
+    & > div {
+      .flex();
+      .flex-one();
+      .vbox();
+    }
+  }
+  
+}
+div {
+  .flex();
+}
+
+a {
+  text-decoration: none;
+}
+
+@import "./layout.less";
